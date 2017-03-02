@@ -1,6 +1,9 @@
 import time
+import os
 
 while True:
 	print("Hello IoT from isaax")
-	time.sleep(5)
+        print( os.environ['isaaxTEST'] )
+	time.sleep(10)
+       
 
